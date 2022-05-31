@@ -1,0 +1,6 @@
+apiVersion: "1"
+id: "TestBundle"
+description: "GitHub"
+version: "1"
+jcasc:
+  - "jenkins.yaml"
