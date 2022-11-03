@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Main') {
             steps {
-                sh 'echo Hello: World' 
+                sh 'echo Hello: World ' 
                 sh 'curl -k https://flow.cloudbees.guru/flow'
             }
         }
